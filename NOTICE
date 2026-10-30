@@ -1,0 +1,11 @@
+ComfyUI-PlateFit
+Copyright 2026 phantomvfx
+
+This product includes software developed by AInVFX
+(AInVFX Paint a plate, https://github.com/AInVFX/ainvfx-paintaplate, commit 63854ef),
+licensed under the Apache License, Version 2.0.
+
+plate_math.py is a modified copy of that project's mathops.py: only the functions used by
+Fit to Plate and Relight Transfer are kept. plate_nodes.py re-implements its FitToPlate and
+RelightTransfer nodes in the classic ComfyUI node API. tests/test_plate_math.py adapts its
+tests/test_mathops.py.
